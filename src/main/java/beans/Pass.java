@@ -1,0 +1,26 @@
+package beans;
+
+public class Pass {
+    private String id;
+
+    public Pass(){}
+
+    public Pass(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Pass{" +
+                "id='" + id + '\'' +
+                '}';
+    }
+}
